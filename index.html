@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SolarHocam | GES ve Yenilenebilir Enerji Eğitimi</title>
+<meta name="description" content="Kıdemli GES mühendisinden mühendisler ve öğrenciler için sade, uygulamalı güneş enerjisi eğitimi.">
+<style>
+:root{--bg:#fff;--surf:#f4f6fa;--text:#0B1F3A;--mute:#55627a;--line:#dde3ee;--navy:#0B1F3A;--sun:#FFB703;--on-sun:#0B1F3A;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#081426;--surf:#0f2140;--text:#eef2f9;--mute:#9fb0cc;--line:#1f3560;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#081426;--surf:#0f2140;--text:#eef2f9;--mute:#9fb0cc;--line:#1f3560;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit;text-decoration:none}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:800;font-size:19px;display:flex;align-items:center;gap:8px}
+.logo b{background:var(--navy);color:var(--sun);border-radius:8px;padding:2px 8px;font-size:15px}
+.links{display:flex;gap:18px;font-size:14px;color:var(--mute)}
+.links a:hover{color:var(--text)}
+@media(max-width:640px){.links a:nth-child(n+3){display:none}}
+.hero{padding:64px 0 48px}
+.tag{display:inline-block;background:var(--sun);color:var(--on-sun);font-weight:700;font-size:12px;padding:4px 10px;border-radius:99px}
+h1{font-size:clamp(32px,6vw,52px);line-height:1.1;margin:16px 0}
+h1 span{color:var(--sun)}
+.lead{color:var(--mute);max-width:620px;font-size:18px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{padding:12px 20px;border-radius:10px;font-weight:700;border:2px solid var(--sun);background:var(--sun);color:var(--on-sun);cursor:pointer;font-size:15px}
+.btn.o{background:none;color:var(--text)}
+section{padding:44px 0}
+h2{font-size:28px;margin:0 0 6px}
+.sub{color:var(--mute);margin:0 0 24px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card small{color:var(--mute)}
+.card h3{margin:6px 0;font-size:17px;line-height:1.3}
+.cat{font-size:11px;font-weight:700;color:var(--sun);letter-spacing:.05em;text-transform:uppercase}
+.soon{float:right;font-size:11px;color:var(--mute)}
+.calc{display:grid;gap:14px;grid-template-columns:1fr 1fr;align-items:end}
+@media(max-width:640px){.calc{grid-template-columns:1fr}}
+label{font-size:13px;color:var(--mute);display:block;margin-bottom:4px}
+input,select{width:100%;padding:11px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);font-size:16px}
+.res{grid-column:1/-1;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.res div{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px}
+.res strong{display:block;font-size:24px;color:var(--sun)}
+.note{font-size:12px;color:var(--mute);grid-column:1/-1}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:36px;text-align:center}
+.cta p{color:#c5d2ea}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--mute);font-size:14px;text-align:center}
+</style>
+</head>
+<body>
+<header><div class="w nav">
+<a class="logo" href="#"><b>SH</b>SolarHocam</a>
+<nav class="links"><a href="#blog">Blog</a><a href="#hesap">Hesaplayıcı</a><a href="#seri">Videolar</a><a href="#iletisim">İletişim</a></nav>
+</div></header>
+
+<main>
+<div class="w hero">
+<span class="tag">☀ GES EĞİTİMİ</span>
+<h1>Güneş enerjisini <span>mühendis gözüyle</span> öğren.</h1>
+<p class="lead">Sahada GES kuran bir mühendisten sade anlatım: tasarım, kurulum, hata ve verim. Mühendisler ve öğrenciler için.</p>
+<div class="btns"><a class="btn" href="#blog">Yazıları Oku</a><a class="btn o" href="#hesap">GES Üretim Hesapla</a></div>
+</div>
+
+<section id="blog"><div class="w">
+<h2>Blog</h2><p class="sub">En çok aranan GES konuları, adım adım.</p>
+<div class="grid">
+<article class="card"><span class="cat">Temel</span><span class="soon">Yakında</span><h3>GES nasıl elektrik üretir?</h3><small>Panelden şebekeye tüm zincir.</small></article>
+<article class="card"><span class="cat">Mit</span><span class="soon">Yakında</span><h3>Bulutlu havada GES çalışır mı?</h3><small>Mit mi, gerçek mi?</small></article>
+<article class="card"><span class="cat">Kurulum</span><span class="soon">Yakında</span><h3>GES kurulumunda en sık yapılan 5 hata</h3><small>Sahadan örneklerle.</small></article>
+<article class="card"><span class="cat">Tasarım</span><span class="soon">Yakında</span><h3>İnverter ve panel uyumu nasıl seçilir?</h3><small>String hesabı, DC/AC oranı.</small></article>
+<article class="card"><span class="cat">Yatırım</span><span class="soon">Yakında</span><h3>Çatı GES geri dönüş süresi nasıl hesaplanır?</h3><small>Maliyet, üretim, tasarruf.</small></article>
+<article class="card"><span class="cat">Mevzuat</span><span class="soon">Yakında</span><h3>Lisanssız GES başvuru süreci</h3><small>Adım adım yol haritası.</small></article>
+</div></div></section>
+
+<section id="hesap"><div class="w">
+<h2>Hızlı GES Üretim Hesaplayıcı</h2><p class="sub">Kaba bir ön tahmin için.</p>
+<div class="card calc">
+<div><label for="kw">Kurulu güç (kWp)</label><input id="kw" type="number" min="1" value="10"></div>
+<div><label for="bl">Bölge</label><select id="bl"><option value="1300">Marmara / Karadeniz</option><option value="1500">Ege</option><option value="1550" selected>İç Anadolu</option><option value="1600">Akdeniz</option><option value="1650">Güneydoğu Anadolu</option></select></div>
+<div class="res">
+<div>Yıllık üretim<strong id="y">–</strong></div>
+<div>Aylık ortalama<strong id="m">–</strong></div>
+<div>Günlük ortalama<strong id="d">–</strong></div>
+</div>
+<p class="note">Bölgesel ortalama özgül verim varsayımıdır; gölge, eğim, yön ve kayıplar sonucu değiştirir. Kesin proje için PVsyst benzeri simülasyon gerekir.</p>
+</div></div></section>
+
+<section id="seri"><div class="w">
+<h2>Video Serisi</h2><p class="sub">Instagram Reels ve YouTube’da kısa, öğretici anlatımlar.</p>
+<div class="grid">
+<div class="card"><span class="cat">Bölüm 1</span><h3>GES nasıl elektrik üretir?</h3></div>
+<div class="card"><span class="cat">Mit Avı</span><h3>Bulutlu havada GES çalışmaz doğru mu?</h3></div>
+<div class="card"><span class="cat">Saha</span><h3>Kurulumda 5 büyük hata</h3></div>
+</div>
+<div class="btns"><a class="btn o" href="https://www.instagram.com/solarhocam" target="_blank" rel="noopener">Instagram: @solarhocam</a></div>
+</div></section>
+
+<section id="iletisim"><div class="w"><div class="cta">
+<h2>GES projen için danışmanlık mı lazım?</h2>
+<p>Tasarım, keşif ve proje değerlendirmesi için Instagram’dan yaz.</p>
+<a class="btn" href="https://www.instagram.com/solarhocam" target="_blank" rel="noopener">Mesaj Gönder</a>
+</div></div></section>
+</main>
+<footer><div class="w">© SolarHocam · Güneşten gelen bilgi</div></footer>
+<script>
+function hesapla(){var k=parseFloat(document.getElementById('kw').value)||0,b=parseFloat(document.getElementById('bl').value),y=k*b,f=function(n){return Math.round(n).toLocaleString('tr-TR')+' kWh'};
+document.getElementById('y').textContent=f(y);document.getElementById('m').textContent=f(y/12);document.getElementById('d').textContent=f(y/365)}
+document.getElementById('kw').oninput=hesapla;document.getElementById('bl').onchange=hesapla;hesapla();
+</script>
+</body>
+</html>
